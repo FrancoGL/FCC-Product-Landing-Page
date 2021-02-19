@@ -24,7 +24,6 @@ body::before {
         rgba(233, 234, 248, 0.5)
       ), url("https://i.imgur.com/PepsCDt.jpg");
     background-size: cover;
-    background-position: center;
 }
 
 .container {
