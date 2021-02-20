@@ -17,13 +17,14 @@
       crossorigin="anonymous"
     ></script>
     <!--Styles-->
-    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <script
+    <!-- <script
       src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
       defer
-    ></script>
+    ></script> -->
     <div class="container">
       <header id="header">
         <div class="logo">
@@ -39,23 +40,25 @@
               <a class="nav-link" href="#assembly">Ensamble</a>
             </li>
             <li class="link">
-              <a class="nav-link" href="#products">Precios</a>
+              <a class="nav-link" href="#products">Productos</a>
             </li>
           </ul>
         </nav>
       </header>
 
-      <section class="about">
-        <h2>
-          En IB Tech nos dedicamos al armado y venta de computadoras para
-          distintos rubros.
-        </h2>
+      <section>
+        <div class="about">
+          <h2>
+            En IB Tech nos dedicamos al armado y venta de computadoras para
+            distintos rubros.
+          </h2>
+        </div>
       </section>
 
       <div class="sections">
         <section id="features">
           <div class="features-item">
-            <i class="fas fa-microchip fa-2x"></i>
+            <i class="fas fa-microchip fa-3x"></i>
             <h2>PCs adaptadas a lo que necesitas</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
@@ -65,7 +68,7 @@
             </p>
           </div>
           <div class="features-item">
-            <i class="fas fa-tools fa-2x"></i>
+            <i class="fas fa-tools fa-3x"></i>
             <h2>Ensambles en el acto</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
@@ -75,7 +78,7 @@
             </p>
           </div>
           <div class="features-item">
-            <i class="fas fa-globe fa-2x"></i>
+            <i class="fas fa-globe fa-3x"></i>
             <h2>Envios a todo el mundo</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sint
@@ -101,32 +104,35 @@
         </section>
 
         <section id="products">
-          <div class="card-container">
-            <div class="card-item one">
-              <h3>Oficina/Hogar</h3>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <button>Elegir</button>
-            </div>
-            <div class="card-item second">
-              <h3>Gaming</h3>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <button>Elegir</button>
-            </div>
-            <div class="card-item">
-              <h3>Workstation</h3>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <button>Elegir</button>
-            </div>
+          <div class="card-item one">
+            <i class="fas fa-home fa-3x"></i>
+            <h2>Oficina/Hogar</h2>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <button>Elegir</button>
           </div>
+          <div class="card-item second">
+            <i class="fas fa-gamepad fa-3x"></i>
+            <h2>Gaming</h2>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <button>Elegir</button>
+          </div>
+          <div class="card-item">
+            <i class="fas fa-photo-video fa-3x"></i>
+            <h2>Workstation</h2>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <p>Lorem ipsum</p>
+            <button>Elegir</button>
+          </div>
+          <!--<div class="card-container">
+          </div>-->
         </section>
 
-        <section class="form">
+        <section class="form-container">
           <form action="https://www.freecodecamp.com/email-submit" id="form">
             <h3>Ingresa tu email para recibir mas info</h3>
             <input
