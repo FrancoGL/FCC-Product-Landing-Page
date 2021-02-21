@@ -22,10 +22,10 @@ body::before {
       rgba(56, 63, 75, 0.5),
       rgba(233, 234, 248, 0.5)
     ), url("https://i.imgur.com/bDuvcyf.jpg");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
 
 /*Header*/
 
@@ -228,11 +228,6 @@ section {
   #header .logo {
     justify-content: flex-start;
   }
-
-  /* #header #nav-bar {
-    align-items: center;
-    justify-content: flex-end;
-  } */
 
   #header #nav-bar .nav-container {
     align-items: center;
