@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body::before {
+html::before {
   content: '';
   position: fixed;
   top: 0;
